@@ -5,7 +5,7 @@ const app = getApp()
 Page({
     data: {
         name: '蜡笔小新',
-        info: { height: 140 },
+        info: { height: 140, color: '黄色' },
         desc: [{ age: 8 }, '靓仔'],
         family: [{ num: 4 }, '四口之家', [{ dad: '野原广治' }, { mum: '美伢' }, { son: '蜡笔小新' }, { dog: '小白', color: '白色' }]]
     },

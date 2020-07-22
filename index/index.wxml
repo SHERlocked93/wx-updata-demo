@@ -12,7 +12,8 @@
     <text class="item">{{ name }}</text>
 </view>
 <view>信息： height -
-    <text class="item">{{ info.height }}</text>
+    <text class="item">{{ info.height }}</text>， color -
+    <text class="item">{{ info.color }}</text>
 </view>
 <view>描述： age - <text class="item">{{ desc[0].age }}</text>，hi -
     <text class="item">{{ desc[1] }}</text>
