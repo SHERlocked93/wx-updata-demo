@@ -30,7 +30,7 @@ Page({
      * @return {number}
      */
     randomNum(start = 0, span = 10) {
-        return Math.round(Math.random() * (span + 1)) + start
+        return Math.floor(Math.random() * (span + 1)) + start
     },
 
     /**
